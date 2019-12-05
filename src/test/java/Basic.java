@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 public class Basic {
 
     @Test
-    public void postRequest(){
+    public void getRequest(){
         //BaseURL
         RestAssured.baseURI = "http://216.10.245.166";
 

@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Basic2 {
+public class Basic3 {
 
     @Test
-    public void postRequest(){
+    public void createAndDelete(){
 
         String b = "{\n" +
                 "\n" +
@@ -43,7 +43,7 @@ public class Basic2 {
         RestAssured.baseURI = "http://216.10.245.166";
 
         Response res = given().
-                queryParam("key", "qaclick").
+                queryParam("key", "qaclick123").
                 body(b).
                 when().
                 post("/maps/api/place/add/json").
@@ -54,9 +54,21 @@ public class Basic2 {
         String responseString = res.asString();
         System.out.println(responseString);
 
+        //Task 2 - Grab the Place ID from Response
+        JsonPath js = new JsonPath(responseString); //convert String to Json
+        String placeId = js.get("place_id");
+        System.out.println(placeId);
 
+        //Task 3 - Place this id in the Delete
+        given().
+                queryParam("key","AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y").
 
-
-
+                body("{"+
+                        "\"place_id\": \""+placeId+"\""+
+                        "}").
+                when().
+                post("/maps/api/place/delete/json").
+                then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
+                body("status",equalTo("OK"));
     }
 }

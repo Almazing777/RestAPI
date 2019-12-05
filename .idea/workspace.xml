@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="affa3afe-7df0-439f-9c6e-ec9f6bdfcd88" name="Default Changelist" comment="" />
+    <list default="true" id="affa3afe-7df0-439f-9c6e-ec9f6bdfcd88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Basic3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/src/files/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Basic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Basic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic2.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,22 +41,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1UA9Gc6nTQCVLc1rcWBtcUd7FcR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.Basic2.postData">
-    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic" />
+  <component name="RunManager" selected="JUnit.Basic3.createAndDelete">
+    <configuration name="Basic2.createAndDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPITesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Basic2" />
+      <option name="METHOD_NAME" value="createAndDelete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -54,6 +71,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Basic2" />
       <option name="METHOD_NAME" value="postData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic3.createAndDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPITesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Basic3" />
+      <option name="METHOD_NAME" value="createAndDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,10 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Basic3.createAndDelete" />
+        <item itemvalue="JUnit.Basic2.createAndDelete" />
         <item itemvalue="JUnit.Basic2.postData" />
         <item itemvalue="JUnit.Basic.postRequest" />
         <item itemvalue="JUnit.Basic.postMethod" />
-        <item itemvalue="Application.Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -118,26 +146,30 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="528" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.976@0.23.1680.976" timestamp="1575424649930" />
-    <state width="815" height="250" key="GridCell.Tab.0.bottom" timestamp="1575498885664">
+    <state width="815" height="250" key="GridCell.Tab.0.bottom" timestamp="1575518168505">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1575498885664" />
-    <state width="815" height="250" key="GridCell.Tab.0.center" timestamp="1575498885664">
+    <state width="815" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1575518168505" />
+    <state width="815" height="250" key="GridCell.Tab.0.center" timestamp="1575518168505">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1575498885664" />
-    <state width="815" height="250" key="GridCell.Tab.0.left" timestamp="1575498885663">
+    <state width="815" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1575518168505" />
+    <state width="815" height="250" key="GridCell.Tab.0.left" timestamp="1575518168504">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1575498885663" />
-    <state width="815" height="250" key="GridCell.Tab.0.right" timestamp="1575498885664">
+    <state width="815" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1575518168504" />
+    <state width="815" height="250" key="GridCell.Tab.0.right" timestamp="1575518168505">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1575498885664" />
-    <state x="147" y="240" key="SettingsEditor" timestamp="1575436268455">
+    <state width="815" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1575518168505" />
+    <state x="147" y="240" key="SettingsEditor" timestamp="1575514393741">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state x="147" y="240" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1575436268455" />
+    <state x="147" y="240" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1575514393741" />
+    <state x="917" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1575501269485">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="917" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1575501269485" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
