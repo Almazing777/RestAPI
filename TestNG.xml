@@ -6,6 +6,7 @@
         <classes>
             <class name="Basic"/>
             <class name="Basic2"/>
+            <class name="JiraAPI"/>
         </classes>
     </test>
 
