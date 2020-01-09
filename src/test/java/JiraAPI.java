@@ -29,8 +29,8 @@ public class JiraAPI {
         Response res = given()
                 .header("Content-Type", "application/json")
                 .body("{ \"username\": \"mendygax\", \"password\": \"twdAM0519!\"}")
-                .when()
-                .post("/rest/auth/1/session").then().statusCode(200)
+                .when().post("/rest/auth/1/session")
+                .then().statusCode(200)
                 .extract().response();
 
         JsonPath js = ReusableMethods.rawToJson(res);

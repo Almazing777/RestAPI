@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="affa3afe-7df0-439f-9c6e-ec9f6bdfcd88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseApiURI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/java/Basic3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basic3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/src/files/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/src/files/env.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Basic3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JiraAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JiraAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,22 +163,22 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="990" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.976@0.23.1680.976" timestamp="1578293142815" />
-    <state width="815" height="250" key="GridCell.Tab.0.bottom" timestamp="1578293560351">
+    <state width="815" height="250" key="GridCell.Tab.0.bottom" timestamp="1578348310226">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1578293560351" />
-    <state width="815" height="250" key="GridCell.Tab.0.center" timestamp="1578293560350">
+    <state width="815" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1578348310226" />
+    <state width="815" height="250" key="GridCell.Tab.0.center" timestamp="1578348310225">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1578293560350" />
-    <state width="815" height="250" key="GridCell.Tab.0.left" timestamp="1578293560350">
+    <state width="815" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1578348310225" />
+    <state width="815" height="250" key="GridCell.Tab.0.left" timestamp="1578348310224">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1578293560350" />
-    <state width="815" height="250" key="GridCell.Tab.0.right" timestamp="1578293560350">
+    <state width="815" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1578348310224" />
+    <state width="815" height="250" key="GridCell.Tab.0.right" timestamp="1578348310225">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
-    <state width="815" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1578293560350" />
+    <state width="815" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1578348310225" />
     <state width="815" height="309" key="GridCell.Tab.1.bottom" timestamp="1575568350618">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
